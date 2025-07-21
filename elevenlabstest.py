@@ -10,8 +10,7 @@ def speak(audio):
     import io
     from pygame import mixer
 
-    # Replace 'YOUR_API_KEY' with your Eleven Labs API key
-    api_key = "sk_37dd9fa743e6eb660f4ee4bdcf16cf88ffe40b9d5b57d7f9"
+
 
     voice_id = "XrExE9yKIg1WjnnlVkGX"  # Replace with the desired Eleven Labs voice ID
 
