@@ -4,12 +4,12 @@ from elevenlabstest import speak
 
 def latestnews():
     api_dict = {
-        "business": "https://newsapi.org/v2/top-headlines?category=business&apiKey=***REMOVED***",
-        "entertainment": "https://newsapi.org/v2/top-headlines?&category=entertainment&apiKey=***REMOVED***",
-        "health": "https://newsapi.org/v2/top-headlines?category=health&apiKey=***REMOVED***",
-        "science": "https://newsapi.org/v2/top-headlines?category=science&apiKey=***REMOVED***",
-        "sports": "https://newsapi.org/v2/top-headlines?category=sports&apiKey=***REMOVED***",
-        "technology": "https://newsapi.org/v2/top-headlines?category=technology&apiKey=***REMOVED***"
+        "business": "https://newsapi.org/v2/top-headlines?category=business&apiKey=e84f7b2bbe4440148d6755a5df6ce58c",
+        "entertainment": "https://newsapi.org/v2/top-headlines?&category=entertainment&apiKey=e84f7b2bbe4440148d6755a5df6ce58c",
+        "health": "https://newsapi.org/v2/top-headlines?category=health&apiKey=e84f7b2bbe4440148d6755a5df6ce58c",
+        "science": "https://newsapi.org/v2/top-headlines?category=science&apiKey=e84f7b2bbe4440148d6755a5df6ce58c",
+        "sports": "https://newsapi.org/v2/top-headlines?category=sports&apiKey=e84f7b2bbe4440148d6755a5df6ce58c",
+        "technology": "https://newsapi.org/v2/top-headlines?category=technology&apiKey=e84f7b2bbe4440148d6755a5df6ce58c"
     }
 
     content = None

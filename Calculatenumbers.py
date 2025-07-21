@@ -1,6 +1,12 @@
 import wolframalpha
 import pyttsx3
 import speech_recognition
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+apikey = os.getenv("WOLFRAM_ALPHA_API_KEY")
+
 
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty("voices")

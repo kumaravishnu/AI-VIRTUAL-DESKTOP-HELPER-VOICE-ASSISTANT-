@@ -3,9 +3,11 @@ import speech_recognition as sr
 from elevenlabstest import speak
 from PIL import Image
 from io import BytesIO
+import os
+from dotenv import load_dotenv
 
-# Replace with your Hugging Face API Key
-HUGGING_FACE_API_KEY = "***REMOVED***"
+load_dotenv()
+HUGGING_FACE_API_KEY = os.getenv("HUGGING_FACE_API_KEY")
 
 def speak_text():
     """

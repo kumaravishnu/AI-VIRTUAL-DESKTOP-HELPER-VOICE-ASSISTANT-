@@ -1,9 +1,12 @@
 import google.generativeai as genai
 import speech_recognition as sr
 from elevenlabstest import speak
+from dotenv import load_dotenv 
+import os 
 
+load_dotenv()
 # Configure Gemini API with your actual key
-genai.configure(api_key="***REMOVED***")
+genai.configure(api_key=os.getenv("GENAI_API_KEY"))
 
 # Initialize the Generative Model
 model = genai.GenerativeModel("gemini-1.5-flash")

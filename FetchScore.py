@@ -27,7 +27,7 @@ def fetch_live_cricket_scores(api_key):
 
 # Function to get and notify live cricket scores
 def get_cricket_scores():
-    api_key = '***REMOVED***'  # Replace with your CricAPI key
+    api_key = '217c5b51-3489-481a-9cae-237e2f060902'  # Replace with your CricAPI key
     cricket_scores = fetch_live_cricket_scores(api_key)
 
     if cricket_scores:
